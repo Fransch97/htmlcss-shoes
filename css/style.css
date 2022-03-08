@@ -1,4 +1,8 @@
 /* GENERAL  */
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +24,9 @@ z-index: 1000000000; /*non si sà mai...*/
     position: relative;
 }
 
+a{
+    text-decoration: none;
+}
 
 
 /* UTILITY  */
@@ -70,13 +77,27 @@ h1{
     font-weight: bold;
     text-transform: uppercase;
     font-weight: 800;
-    color: yellow;
 }
 
 /* GETTING BACKGROUND COLORS */
 
-.product.one{}
+.product.one{
+    background-color: red;
+}
+.product.one h1{
+    color: yellow;
+}
 
-.product.two{}
+.product.two{
+    background-color: green;
+}
+.product.two h1{
+    color: yellow;
+}
 
-.product.three{}
+.product.three{
+    background-color:yellow ;
+}
+.product.product.three h1{
+    color: green;
+}
