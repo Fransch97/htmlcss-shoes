@@ -36,27 +36,34 @@ a{  font-size: 2vh;
 .overlay:active{
     background-color: rgba(0, 0, 0, 0.5);
 }
-.li-one:active{
-    margin-top: 5px;
-}
+
 
 .overflow{
     overflow: hidden;
 }
 
 
+.bottom-down:active{
+    transform: translateY(5px);
+}
+
+.bottom-down{
+    background-color: white;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 8px;
+}
 
 /* HEADER  */
 header nav ul li{
     list-style: none;
     display: inline-block;
-    background-color: white;
-    width: 50px;
-    height: 50px;
+    
     text-align: center;
     margin-right: 3vw;
-    border-radius: 50%;
-    box-shadow: 1px 1px 8px;
+    
 }
 
 header nav ul li a{
