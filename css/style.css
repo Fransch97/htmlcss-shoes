@@ -63,15 +63,17 @@ a{ display: inline-block;
 .logo{
     position: fixed;
     z-index: 10000;
-    top: 20px;
+    top: 30px;
     left: 30px;
     box-shadow: 0px -1px 100px greenyellow;
     border-bottom: greenyellow solid 5px;
+  
     
 }
 .logo img{
     width: 5vw;
-
+    min-width: 50px;
+    min-height: 50px;
 }
 
 /* NAV  */
@@ -154,9 +156,9 @@ h1{
 
 #tel {
     background-image: url(../img/tel.png);
-    background-size: 1.5vw;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: center 0.5vw ;
+    background-position: center ;
 }
 
 
