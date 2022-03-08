@@ -43,13 +43,13 @@ a{  font-size: 2vh;
 }
 
 
-.bottom-down:active{
+a:active{
     transform: translateY(5px);
-    box-shadow: 1px 1px 8px;
+    box-shadow: 1px 1px 8px black;
 
 }
 
-.bottom-down{
+a{ display: inline-block;
     background-color: white;
     background-color: white;
     width: 50px;
