@@ -39,3 +39,7 @@ header nav ul li a{
 
 
 /* MAIN  */
+.product{
+    background-color: red;
+    height: 100vh;
+}
